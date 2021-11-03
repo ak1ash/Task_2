@@ -18,7 +18,7 @@ def datein_vergleicher(datein):
 
         while True:
 
-            # Lesen von Daten = BUF_SIZE aus
+            # Lesen von Daten = MAX_BUFFER_SIZE aus
             # der Datei und speichert sie in einer
             # Variable
             daten = f.read(MAX_BUFFER_SIZE)
